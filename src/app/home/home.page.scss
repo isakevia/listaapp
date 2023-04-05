@@ -26,12 +26,14 @@
   text-decoration: none;
 }
 
-ion-avatar {
-  width: 60px;
-  height: 60px;
+ion-toolbar{
+  text-align: center;
 }
 
-h1 {
+.email {
+  font-size: 15px;
+}
+
+ion-label {
   margin-left: 20px;
-  font-size: 20px;
 }

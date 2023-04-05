@@ -1,5 +1,5 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="dark">
     <ion-title>
       Lista
     </ion-title>
@@ -14,35 +14,49 @@
   </ion-header>
 
   <ion-list [inset]="true">
-    <ion-item>
+    <ion-item (click)="goToRoute('ines')">
       <ion-avatar>
         <img src="https://i.pinimg.com/564x/20/c3/c2/20c3c2956062fb69d52e40b6279d4068.jpg" alt="">
       </ion-avatar>
-      <h1>Inês</h1>
+      <ion-label><strong>Inês</strong></ion-label>
+      <ion-chip color="dark">inescuca@gmail.com</ion-chip>
+      <ion-chip color="dark">Id: 1</ion-chip>
     </ion-item>
-    <ion-item>
+
+    <ion-item (click)="goToRoute('iara')">
       <ion-avatar>
         <img src="https://conteudo.imguol.com.br/c/entretenimento/6b/2021/02/20/jessica-cores-a-iara-de-cidade-invisivel-1613827758539_v2_1x1.jpg" alt="">
       </ion-avatar>
-      <h1>Iara</h1>
+      <ion-label><strong>Iara</strong></ion-label>
+      <ion-chip color="dark">iarasereia@gmail.com</ion-chip>
+      <ion-chip color="dark">Id: 2</ion-chip>
     </ion-item>
-    <ion-item>
+
+    <ion-item (click)="goToRoute('isac')">
       <ion-avatar>
         <img src="https://i.pinimg.com/736x/c4/30/21/c430213de6f6316a653974cd8e704def.jpg" alt="">
       </ion-avatar>
-      <h1>Isac</h1>
+      <ion-label><strong>Isac</strong></ion-label>
+      <ion-chip color="dark">isacsaci@gmail.com</ion-chip>
+      <ion-chip color="dark">Id: 3</ion-chip>
     </ion-item>
-    <ion-item>
+
+    <ion-item (click)="goToRoute('ibere')">
       <ion-avatar>
         <img src="https://temalguemassistindo.com.br/wp-content/uploads/2021/02/Cidade-Invisivel-Curupira.jpg" alt="">
       </ion-avatar>
-      <h1>Iberê</h1>
+      <ion-label><strong>Iberê</strong></ion-label>
+      <ion-chip color="dark">curupira@gmail.com</ion-chip>
+      <ion-chip color="dark">Id: 4</ion-chip>
     </ion-item>
-    <ion-item>
+
+    <ion-item (click)="goToRoute('tutu')">
       <ion-avatar>
         <img src="https://pbs.twimg.com/media/Et0FkCLXYAU040x.jpg" alt="">
       </ion-avatar>
-      <h1>Tutu</h1>
+      <ion-label><strong>Tutu</strong></ion-label>
+      <ion-chip color="dark">tutu@gmail.com</ion-chip>
+      <ion-chip color="dark">Id: 5</ion-chip>
     </ion-item>
   </ion-list>
 
